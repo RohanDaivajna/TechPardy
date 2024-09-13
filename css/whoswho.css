@@ -1,0 +1,63 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        .question-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #answer {
+            font-weight: bold;
+            display: none;
+        }
+        body {
+    --u: 2.1vmin;
+    --c1: #7b89bd;
+    --c2: #a6b7f3;
+    --c3: #3d4772;
+    --c4: #606a91;
+    --gp: 50%/ calc(var(--u) * 10) calc(var(--u) * 10);
+    --bp: calc(var(--u) * -5) calc(var(--u) * -5);
+    height: 100vh;
+    --bg: 
+        conic-gradient(from 0deg at 75% 25%, var(--c1) 0 45deg, #fff0 0 100%) var(--gp),
+        conic-gradient(from 0deg at 75% 50%, var(--c2) 0 45deg, var(--c1) 0 90deg, #fff0 0 100%) var(--gp),
+        conic-gradient(from -45deg at 25% 25%, var(--c1) 0 135deg, #fff0 0 100%) var(--gp),
+        conic-gradient(from -90deg at 25% 50%, var(--c1) 0 45deg, var(--c3) 0 90deg, var(--c4) 0 180deg, #fff0 0 100%) var(--gp);
+    background: var(--bg),var(--bg);
+    background-position: var(--bp), var(--bp), var(--bp), var(--bp), 0 0, 0 0, 0 0, 0 0;
+    background-color: var(--c1);
+}
